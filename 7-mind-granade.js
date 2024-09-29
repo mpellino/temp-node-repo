@@ -6,3 +6,6 @@ function addValues(){
 }
 
 addValues()
+
+//if I export this function as module, because I call the addValue in the module it will be called automatically
+// and the function will run just by require it.
